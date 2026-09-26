@@ -19,3 +19,8 @@ The size must be an integer and must be greater than or equal to 0.
 ## Task 4: Area of a Square
 
 Added an `area()` method that returns the area of the square.
+
+## Task 5: Access and Update Private Attribute
+
+Added a getter and setter for the private `size` attribute.
+The setter validates that the size is an integer and is greater than or equal to 0.
