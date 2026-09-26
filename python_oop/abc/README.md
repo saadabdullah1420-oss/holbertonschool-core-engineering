@@ -11,5 +11,9 @@ and duck typing.
 
 ## Task 2: The Enigmatic FlyingFish
 
-This task demonstrates multiple inheritance and method resolution order
-using Fish, Bird, and FlyingFish.
+This task demonstrates multiple inheritance and method resolution order.
+
+## Task 3: The Mystical Dragon
+
+This task demonstrates mixins and how multiple mixins can provide
+different reusable behaviors to a class.
