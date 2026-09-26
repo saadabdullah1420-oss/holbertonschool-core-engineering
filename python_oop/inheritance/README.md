@@ -1,16 +1,10 @@
 # Python - Inheritance & Polymorphism
 
-This project introduces inheritance and polymorphism in Python.
+## Rectangle
 
-## BaseGeometry
+The `Rectangle` class inherits from `BaseGeometry`.
 
-The `BaseGeometry` class provides common functionality for geometric
-shapes.
+It receives a width and height and validates both values using the
+`integer_validator` method inherited from `BaseGeometry`.
 
-It contains:
-
-- `area()` which raises an exception because the area is not implemented
-  in the base class.
-- `integer_validator()` which checks that a value is a positive integer.
-
-The class will be used as a parent class for other geometric shapes.
+The width and height are stored as private attributes.
