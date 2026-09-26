@@ -2,36 +2,14 @@
 
 This project introduces the basics of Object-Oriented Programming in Python.
 
-## Task 1: My First Square
+## Square
 
-Created an empty `Square` class with no attributes or methods.
+The project includes several Square tasks covering private attributes,
+validation, properties, area calculation, printing, position, and string
+representation.
 
-## Task 2: Square with Size
+## Rectangle Class
 
-Created a `Square` class with a private instance attribute `size`.
-The size is set when the object is created.
-
-## Task 3: Size Validation
-
-Added validation for the private `size` attribute.
-The size must be an integer and must be greater than or equal to 0.
-
-## Task 4: Area of a Square
-
-Added an `area()` method that returns the area of the square.
-
-## Task 5: Access and Update Private Attribute
-
-Added a getter and setter for the private `size` attribute.
-The setter validates that the size is an integer and is greater than or equal to 0.
-
-## Task 6: Printing a Square
-
-Added a `my_print()` method that prints the square using the `#` character.
-If the size is 0, it prints an empty line.
-
-## Task 7: Print Square Instance
-
-Added a private `position` attribute with a getter and setter.
-The position controls the indentation and vertical placement of the square.
-Implemented `__str__()` so printing a Square instance behaves like `my_print()`.
+Created a Rectangle class with private width and height attributes.
+Both attributes have getters and setters with validation.
+Width and height must be integers greater than or equal to 0.
