@@ -31,3 +31,7 @@ It prints the result inside the function and returns the result. If an exception
 ## Task 4: Raise exception
 
 The `raise_exception` function explicitly raises a `TypeError` exception.
+
+## Task 5: Raise a message
+
+The `raise_exception_msg` function raises a `NameError` exception with a custom message.
