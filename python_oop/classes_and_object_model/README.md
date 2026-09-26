@@ -10,3 +10,8 @@ Created an empty `Square` class with no attributes or methods.
 
 Created a `Square` class with a private instance attribute `size`.
 The size is set when the object is created.
+
+## Task 3: Size Validation
+
+Added validation for the private `size` attribute.
+The size must be an integer and must be greater than or equal to 0.
