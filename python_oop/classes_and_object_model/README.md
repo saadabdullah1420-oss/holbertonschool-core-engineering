@@ -29,3 +29,9 @@ The setter validates that the size is an integer and is greater than or equal to
 
 Added a `my_print()` method that prints the square using the `#` character.
 If the size is 0, it prints an empty line.
+
+## Task 7: Print Square Instance
+
+Added a private `position` attribute with a getter and setter.
+The position controls the indentation and vertical placement of the square.
+Implemented `__str__()` so printing a Square instance behaves like `my_print()`.
