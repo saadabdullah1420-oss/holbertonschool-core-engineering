@@ -24,3 +24,8 @@ Added an `area()` method that returns the area of the square.
 
 Added a getter and setter for the private `size` attribute.
 The setter validates that the size is an integer and is greater than or equal to 0.
+
+## Task 6: Printing a Square
+
+Added a `my_print()` method that prints the square using the `#` character.
+If the size is 0, it prints an empty line.
