@@ -15,3 +15,7 @@ The size is set when the object is created.
 
 Added validation for the private `size` attribute.
 The size must be an integer and must be greater than or equal to 0.
+
+## Task 4: Area of a Square
+
+Added an `area()` method that returns the area of the square.
