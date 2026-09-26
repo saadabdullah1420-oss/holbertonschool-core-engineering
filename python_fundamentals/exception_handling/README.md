@@ -15,3 +15,9 @@ It uses `try` and `except` to safely handle cases where the requested number of 
 The `safe_print_integer` function prints an integer safely.
 
 It uses `try` and `except` to handle values that are not integers. It returns `True` when an integer is printed and `False` otherwise.
+
+## Task 2: Safe list printing with type handling
+
+The `safe_print_list_integers` function prints only the integer elements from the first `x` elements of a list.
+
+It skips non-integer values and returns the number of integers printed.
