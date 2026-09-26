@@ -13,3 +13,9 @@ representation.
 Created a Rectangle class with private width and height attributes.
 Both attributes have getters and setters with validation.
 Width and height must be integers greater than or equal to 0.
+
+## Area and Perimeter
+
+Added `area()` and `perimeter()` methods to calculate the rectangle area
+and perimeter.
+If either width or height is 0, the perimeter is 0.
