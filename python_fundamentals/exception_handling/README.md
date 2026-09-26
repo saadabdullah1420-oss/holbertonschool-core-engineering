@@ -27,3 +27,7 @@ It skips non-integer values and returns the number of integers printed.
 The `safe_print_division` function safely divides two values using try, except, and finally.
 
 It prints the result inside the function and returns the result. If an exception occurs, it returns None.
+
+## Task 4: Raise exception
+
+The `raise_exception` function explicitly raises a `TypeError` exception.
