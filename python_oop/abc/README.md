@@ -17,3 +17,8 @@ This task demonstrates multiple inheritance and method resolution order.
 
 This task demonstrates mixins and how multiple mixins can provide
 different reusable behaviors to a class.
+
+## Task 4: Extending the Python List
+
+This task demonstrates how to extend the built-in Python list class
+and override methods to add custom notification messages.
