@@ -4,7 +4,7 @@
 
 This task demonstrates abstract base classes in Python.
 
-- `Animal` is an abstract class.
-- `Dog` and `Cat` inherit from `Animal`.
-- `Dog.sound()` returns `"Bark"`.
-- `Cat.sound()` returns `"Meow"`.
+## Task 1: Shapes, Interfaces, and Duck Typing
+
+This task demonstrates abstract classes, inheritance, polymorphism,
+and duck typing using Shape, Circle, and Rectangle.
