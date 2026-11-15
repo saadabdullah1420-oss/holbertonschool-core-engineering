@@ -14,8 +14,10 @@ async def connect_and_send(uri: str, text: str) -> str:
 
 
 async def main():
-    """Send the demo message and print without a final newline."""
-    response = await connect_and_send("ws://127.0.0.1:8765", "demo")
+    """Send the required message and print the server response."""
+    response = await connect_and_send(
+        "ws://localhost:8765", "Hello WebSocket"
+    )
     print(response, end="")
 
 
